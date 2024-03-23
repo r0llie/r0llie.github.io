@@ -31,8 +31,19 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.5); /* Arka plan rengi ve opaklık */
-    border-radius: 10px; /* Köşelerin yuvarlanma derecesi */
-    box-shadow: 0 0 20px 5px #fff; /* Gölge efekti */
+    border-radius: 5px; /* Köşelerin yuvarlanma derecesi */
+    box-shadow: 0 0 10px 2px #fff; /* Gölge efekti */
+    max-width: 80%; /* Maksimum genişlik */
+}
+
+h1 {
+    font-size: 24px; /* Başlık font büyüklüğü */
+    font-family: "Arial", sans-serif; /* Font ailesi */
+}
+
+p {
+    font-size: 18px; /* Paragraf font büyüklüğü */
+    font-family: "Arial", sans-serif; /* Font ailesi */
 }
